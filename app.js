@@ -6,7 +6,7 @@ var started = false;
 
 ///sound chahiye game start hote hi
 function sound(l)
-{  var audi = new Audio( "sounds/" + l + ".mp3" );
+{  var audi = new Audio( ".sounds/" + l + ".mp3" );
    audi.pause();
    audi.autoplay = true;
    audi.play();
