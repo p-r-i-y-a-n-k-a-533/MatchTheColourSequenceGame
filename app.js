@@ -57,7 +57,7 @@ $(".btn").on("click",function(event){
          {  setTimeout( function(){ nextSequence(); } , 1000 );  }
       }
       else
-      {  var galat = new Audio("sounds/wrong.mp3");
+      {  var galat = new Audio("./sounds/wrong.mp3");
          galat.play();
          $("body").addClass("game-over");
          setTimeout( function(){
